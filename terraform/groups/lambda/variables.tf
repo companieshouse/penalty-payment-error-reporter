@@ -45,7 +45,7 @@ variable "environment" {
 
 variable "service" {
   type        = string
-  default     = "lfp-error-reporter"
+  default     = "penalty-payment-error-reporter"
   description = "The name of the service being deployed."
 }
 

@@ -7,7 +7,7 @@ package service
 import (
 	reflect "reflect"
 
-	models "github.com/companieshouse/lfp-error-reporter/models"
+	models "github.com/companieshouse/penalty-payment-error-reporter/models"
 	gomock "github.com/golang/mock/gomock"
 )
 

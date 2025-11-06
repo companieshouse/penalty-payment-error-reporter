@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/companieshouse/chs.go/log"
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/filetransfer"
-	"github.com/companieshouse/lfp-error-reporter/models"
-	"github.com/companieshouse/lfp-error-reporter/service"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/filetransfer"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/service"
 )
 
 const dateFormat = "2006-01-02"

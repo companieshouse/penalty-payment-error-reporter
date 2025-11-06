@@ -10,8 +10,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 
 	"github.com/companieshouse/chs.go/log"
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
 )
 
 // Mongo provides a MongoDB implementation of the DAO

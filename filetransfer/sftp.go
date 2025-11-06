@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"github.com/companieshouse/chs.go/log"
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"
 )

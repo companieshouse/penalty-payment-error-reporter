@@ -1,4 +1,4 @@
-module github.com/companieshouse/lfp-error-reporter
+module github.com/companieshouse/penalty-payment-error-reporter
 
 go 1.24
 

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/dao"
-	"github.com/companieshouse/lfp-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/dao"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -1,11 +1,11 @@
 # Penalty payment error reporter - terraform
 
 ## Introduction
-This provisions the lfp-error-reporter Lambda function which is triggered by the cloud watch event.
+This provisions the penalty-payment-error-reporter Lambda function which is triggered by the cloud watch event.
 
 ## Config
 The following config is required to deploy the project:
-- release_bucket_name: `Optional` Release bucket for lfp-error-reporter, defaults to `release.ch.gov.uk`
+- release_bucket_name: `Optional` Release bucket for penalty-payment-error-reporter, defaults to `release.ch.gov.uk`
 - version: `Required` Github release version
 - stage: `Required` deployment stage
 - environment: `Required` to read the environment variable from.
