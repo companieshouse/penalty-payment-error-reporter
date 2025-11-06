@@ -5,8 +5,8 @@ import (
 
 	. "github.com/aws/aws-lambda-go/lambda"
 	"github.com/companieshouse/chs.go/log"
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/lambda"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/lambda"
 )
 
 func main() {

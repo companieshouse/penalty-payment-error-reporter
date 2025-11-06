@@ -1,8 +1,8 @@
 # Penalty Payment Error Reporter
-A lambda to report errors from the penalty payment service when communicating with E5 Financial Management System. This service collates failed E5 payment actions from the payable resources collection and writes it to a CSV file on an SFTP server. More information can be found [here](https://companieshouse.atlassian.net/wiki/spaces/TEAM8/pages/2824667427/LFP+Error+Reporter)
+A lambda to report errors from the penalty payment service when communicating with E5 Financial Management System. This service collates failed E5 payment actions from the payable resources collection and writes it to a CSV file on an SFTP server. More information can be found [here](https://companieshouse.atlassian.net/wiki/spaces/TEAM8/pages/2824667427/Penalty+Payment+Error+Reporter)
 
 > [!IMPORTANT]  
-> Testing can only be carried out from CIDEV as an instance of AWS CloudWatch is required and is documented [here](https://companieshouse.atlassian.net/wiki/spaces/TEAM8/pages/2824667427/LFP+Error+Reporter#Testing-on-AWS).
+> Testing can only be carried out from CIDEV as an instance of AWS CloudWatch is required and is documented [here](https://companieshouse.atlassian.net/wiki/spaces/TEAM8/pages/2824667427/Penalty+Payment+Error+Reporter#Testing-on-AWS).
 
 ### The Lambda function
 This API runs on AWS Lambda. Release and deployment of the lambda is similar to that of other trunk based services. 

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/filetransfer"
-	"github.com/companieshouse/lfp-error-reporter/models"
-	"github.com/companieshouse/lfp-error-reporter/service"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/filetransfer"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/service"
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
 )

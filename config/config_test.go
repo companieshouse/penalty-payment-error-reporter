@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/companieshouse/lfp-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

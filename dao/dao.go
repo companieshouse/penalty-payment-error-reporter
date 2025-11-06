@@ -2,7 +2,7 @@
 package dao
 
 import (
-	"github.com/companieshouse/lfp-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
 )
 
 // DAO provides access to the database

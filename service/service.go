@@ -5,9 +5,9 @@ import (
 	"reflect"
 
 	"github.com/companieshouse/chs.go/log"
-	"github.com/companieshouse/lfp-error-reporter/config"
-	"github.com/companieshouse/lfp-error-reporter/dao"
-	"github.com/companieshouse/lfp-error-reporter/models"
+	"github.com/companieshouse/penalty-payment-error-reporter/config"
+	"github.com/companieshouse/penalty-payment-error-reporter/dao"
+	"github.com/companieshouse/penalty-payment-error-reporter/models"
 )
 
 const (

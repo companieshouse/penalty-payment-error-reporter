@@ -27,7 +27,7 @@ data "aws_subnets" "application" {
 
 # todo - i don't think this policy is required any longer. commenting out with
 #        a view to reintroducing permissions or deleting after testing in cidev
-# data "aws_iam_policy_document" "lfp_error_reporter_execution" {
+# data "aws_iam_policy_document" "penalty_payment_error_reporter_execution" {
 #   statement {
 #     effect = "Allow"
 #
