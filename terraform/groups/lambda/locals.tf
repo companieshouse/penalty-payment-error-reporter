@@ -1,6 +1,6 @@
 locals {
 
-#  additional_iam_policies_json = [data.aws_iam_policy_document.penalty-payment-error-reporter_execution.json]
+#  additional_iam_policies_json = [data.aws_iam_policy_document.penalty_payment_error_reporter_execution.json]
   stack_name                   = "company-requests"
   lambda_env_vars              = merge(local.service_secrets, var.open_lambda_environment_variables)
   lambda_vpc_access_subnet_ids = data.aws_subnets.application.ids
